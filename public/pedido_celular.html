@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo_usuario.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <title>Pedido</title>
+</head>
+<body>
+    <form class="forma" action="https://personalab.herokuapp.com/agregar_pedido.php" method="POST">
+        
+        <h2>pedir articulo </h2>
+        <label for="email">email </label><br>
+        <input type=email name="email"older="Ingrese el email"required>
+
+        <label for="marca">marca </label><br>
+        <input type=text name="marca" pattern="[a-zA-Z]+" placeholder="Ingrese el marca"required>
+
+        <label for="modelo">modelo </label><br> 
+        <input type=text name="modelo" placeholder="ingrese el modelo " required>
+
+        <label for="comentario">comentario </label><br> 
+        <input type=text name="comentario" placeholder="(opcional comentario) ">
+        <input type="submit" name="enviar" value="registrar">
+        <input type="reset" name="borrar" value="borrar">
+    </form>
+</body>
+</html>

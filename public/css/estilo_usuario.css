@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*,:after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    background: #FDCC45;
+
+}
+.forma h2{
+    text-align: center;
+}
+.forma{
+    
+    border-radius: 4%;
+    padding: 4rem;
+    background:#FCC302;
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   
+  transform:translate(-50%,-50%);   
+}
+.forma{
+    /*sombraaaa*/
+  
+    box-shadow: 4px 20px 29px -19px rgba(130, 125, 130, 1);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+/*las entraadas de imput */
+.forma input[type="text"],.forma input[type="password"],.forma input[type="email"],.forma input[type="number"]{
+    background: #F3DFC7;
+    border: 0;
+    border-radius: 6%;
+    display: block;
+    border: 2px solid #1762be;
+    text-align: center;
+
+}
+.forma input[type="submit"],.forma input[type="reset"]{
+ 
+    background: #F3DFC7;
+    border: 0;
+    border-radius: 30%;
+  
+    border: 2px solid #1762be;
+    text-align: center;
+    padding: 4% ;
+    cursor: pointer;
+    
+
+}

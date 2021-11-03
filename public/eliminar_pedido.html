@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo_sesion.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <title>elimanacion</title>
+</head>
+<body>
+    <div class="sesion">
+    <form action="https://personalab.herokuapp.com/eliminar_pedido.php"method="POST">
+        <h2>eliminar pedido</h2>
+        <label for="marca">ingresa la marca</label>
+        <input type=text name="marca" required>
+        <label for="modelo">Ingresa el modelo</label>
+        <input type=text name="modelo" required >
+        <label for="email">Ingresa tu email</label>
+        <input type=email name="email" required >
+        <input type="submit" name="enviar" value="enviar">
+
+     </form>
+    </div>
+
+</body>
+</html>

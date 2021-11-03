@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo_usuario.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <title>agregarC</title>
+</head>
+<body>
+    <form class="forma" action="http://personalab.herokuapp.com/agregar_celular.php" method="POST">
+        
+        <h2>agregar articulo </h2>
+        <label for="marca">marca </label><br>
+        <input type=text name="marca" pattern="[a-zA-Z]+" placeholder="Ingrese la marca"required>
+
+        <label for="modelo">Modelo </label><br> 
+        <input type=text name="modelo" placeholder="ingrese el modelo " required>
+
+        <label for="memoria_ram">memoria_ram</label><br>
+         <input type=text name="memoria_ram" placeholder="ingrese la ram">
+
+        <label for="memoria_inter">memoria_inter</label><br>
+        <input type=text name="memoria_inter" placeholder="Ingrese la memoria interna" required>
+
+        <label for="camara_delantera">camara delantera</label><br>
+        <input type=text name="camara_delantera" " placeholder="Ingrese los mpxs "required> 
+
+        <label for="camara_trasera">Camara Trasera</label>
+        <input type=text name="camara_trasera" placeholder="Ingrese los mpxs"required>
+
+        <label for="stock">stock</label>
+        <input type=text name="stock" placeholder="Ingrese los mpxs"required>
+
+        <label for="precio">Precio</label>
+        <input type=text name="precio" placeholder="Ingrese los mpxs"required> 
+
+        <input type="submit" name="enviar" value="registrar">
+        <input type="reset" name="borrar" value="borrar">
+    </form>
+</body>
+</html>

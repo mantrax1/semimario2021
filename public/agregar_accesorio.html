@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/estilo_sesion.css">
+    <title>secion</title>
+</head>
+<body>
+    <div class="sesion">
+        
+         <form action="https://personalab.herokuapp.com/agregar_accesorio.php" method="POST">
+            <h2>agregar accesorio</h2>
+                 <label for="marca">marca</label>
+                 <input type=text name="marca" required>
+                 <label for="tipo">Tipo</label>
+                 <input type=text name="tipo" required>
+                 <label for="stock">stock</label>
+                 <input type=text name="stock" required>
+                  <input type="submit" name="login" value="agregar">
+         </form>
+    </div>
+
+</body>
+</html>

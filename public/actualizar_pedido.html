@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/estilo_sesion.css">
+    <title>actualizar_pedido</title>
+</head>
+<body>
+    <div class="sesion">
+        
+         <form action="https://personalab.herokuapp.com/actualizar_pedido.php" method="POST">
+            <h2>actualizar pedido</h2>
+                 <label for="email">email</label>
+                 <input type=email name="email" required>
+                 <label for="modelo">modelo</label>
+                 <input type=text name="modelo" required>
+                 <label for="comentario">comentario</label>
+                 <input type=text name="comentario" required>
+                  <input type="submit" name="actualizar" value="actualizar">
+         </form>
+    </div>
+
+</body>
+</html>

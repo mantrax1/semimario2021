@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*,:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    background: #FDCC45;
+
+}
+
+.sesion h2{
+    text-align: center;
+    color: #F3DFC7;
+}
+.sesion{
+    border-radius: 4%;
+    padding: 4rem;
+    background:#FCC302;
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   
+  transform:translate(-50%,-50%);   
+}
+.sesion{
+    /*sombraaaa*/
+  
+    box-shadow: 4px 20px 29px -19px rgba(130, 125, 130, 1);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+/*las entraadas de imput */
+.sesion input[type="text"],.sesion input[type="email"]{
+    background: #F3DFC7;
+    border: 0;
+    border-radius: 6%;
+    display: block;
+    border: 2px solid #1762be;
+    text-align: center;
+
+}
+.forma input[type="submit"]{
+
+ 
+    background: #F3DFC7;
+    border: 0;
+    border-radius: 30%;
+  
+    border: 2px solid #1762be;
+    text-align: center;
+    padding: 4% ;
+    cursor: pointer;
+    
+
+}

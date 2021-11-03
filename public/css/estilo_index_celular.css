@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*,:after{
+    box-sizing: inherit;
+}
+
+.imagen{
+    margin-top: 5rem;
+    position: center;
+    background:linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.2),
+        rgba(0,0,0,.6)
+        ),url("../img/fondo.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.imagen .titulo {
+
+    cursor: default;
+    
+      text-align:center;
+      font-size: 3rem;
+      color:#0EAFF3 ;
+  }
+
+
+  nav{
+  
+    width: 100%;
+    
+}
+nav ul{
+   padding: 2rem;
+    list-style: none;
+    text-align: center;
+   
+}
+nav ul li{
+    padding: 1rem;
+    
+    display: inline-block;
+    padding-left: 5rem;
+    position: relative;
+   
+}
+nav ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: powderblue;
+    
+    
+}
+/*iconos*/
+.icon-media-play{
+    font-size: 1rem;
+}
+.icon-eye{
+    font-size: 1rem;
+    
+}
+
+/*submenu*/
+/*maouse*/
+nav ul li:hover .hijo{
+    display: block;
+    padding:0;
+    color: aliceblue;
+  
+    margin: 0;
+
+    background-color:#1b1009;
+} 
+nav ul li .hijo li:hover{
+    background: #F0A202;
+    width: 100%;
+}
+
+nav ul .submeno{
+    padding: 2rem;
+}
+nav ul li .hijo{
+
+     display: none;
+     
+     position: absolute;
+     width: 100%;
+
+
+}
+nav ul li .hijo li{
+    padding: 1rem;
+}
+
+nav ul li .hijo a{
+    background-position: center;
+    font-size:3ch;
+}
+nav ul li ul {
+    text-align: center;
+
+}
